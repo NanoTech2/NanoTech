@@ -1,0 +1,165 @@
+*{ 
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/*----- Scroll up button -----*/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #16c3ee;
+  color: #fff;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#btn-back-to-top:hover{
+  background-color:rgb(21, 218, 21);
+ 
+}
+/* ----- About Us -----*/
+.about {
+  padding: 120px 0;
+}
+#photo{
+  margin-top: -80px;
+  max-height: 450px; 
+  max-width: 450px; 
+  margin-left: -30px;
+  position: relative;
+	animation-name: img;
+	animation-duration: 4s;
+	animation-iteration-count:infinite;
+}
+@keyframes img {
+	0%{ top: 0px;}
+	25%{ top: 60px;}
+	50%{top: 60px;}
+	100%{top: 0px;}
+}
+.about .content h2 {
+  font-weight: 600;
+  font-size: 52px;
+}
+#head{
+  margin-top: 25px;
+}
+.about .content .btn {
+  padding: 8px 25px 8px 25px;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin-left: 130px;
+  color: #fff;
+  background-color: #16c3ee;
+  position: relative;
+  text-decoration: none;
+}
+.about .content .btn:hover{
+  background-color: rgb(21, 218, 21);
+  
+}
+/*------ Services ------- */
+section {
+    padding: 100px 0;
+    overflow: hidden;
+    
+  }
+  .section-bg {
+    background-color: #f9f8ff;
+  }
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    
+  }
+  .section-title h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    
+  }
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 3px;
+    background: #2ab7eb;
+    bottom: 0;
+    left: calc(50% - 65px);
+  }
+  .section-title p {
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+/*------ Cards  ------- */
+.services .icon-box {
+    text-align: center;
+    height: 450px;
+    width: 400px;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: rgb(255, 250, 250);
+    border-radius: 20px;
+    
+  }
+  .services .icon-box .icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+  }
+  .services .icon-box .icon i {
+    font-size: 80px;
+    transition: 0.3s;
+    position: relative;
+  }
+  .services .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 25px;
+  }
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 0;
+    
+  }
+  .services .icon-box:hover {
+    border-color: #fff;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(10, 10, 10, 0.1);
+    transform: translateY(-8px) scale(1.005) translateZ(0);
+    
+  } 
+   .numbering {
+    position: absolute;
+    font-size: 8rem;
+    margin-left: 11rem;
+    margin-top: -50px;
+    color: gray;
+    opacity: 0.1;
+    
+  }
+  
+  .icon{
+      height: 80px;
+  }
+  .services .iconbox-a i {
+    color: #31525b;
+  }
+  .services .iconbox-a:hover .icon i {
+    color: #16c3ee;
+  }
+  
+
+ 
+  

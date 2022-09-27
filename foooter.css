@@ -1,0 +1,148 @@
+/* body{
+
+} */
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(73, 73, 204);
+    color:#262626 ;
+    padding: 100px 0 30px;
+    font-size: 8px;
+    line-height: 20px;
+    margin-top: 10%;
+}
+.rwo{
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start ;
+    background-color: 	rgb(73, 73, 204);
+    justify-content: space-between;
+}
+.footer_top_container{
+    background-color:rgb(73, 73, 204);
+}
+.colo{
+      flex-basis: 25%;
+      padding: 10px;
+      font-size: 15px;
+}
+
+.colo:nth-child(2),.colo:nth-child(3){
+    flex-basis: 15%;
+}
+
+.loogo{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.colo h3{
+    width:fit-content;
+    /* margin-bottom: 40%; */
+    position: relative;
+    
+}
+.footer_head{
+margin-top: 10%;
+padding-bottom: 2%;
+}
+ul li a{
+    list-style: none;
+    margin-bottom: 12px;
+    text-decoration: none;
+    /* color: ; */
+}
+
+ /* form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+} */
+
+ .far{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.footer_input{
+    width:100%;
+    background: transparent;
+    color:#383838 ;
+    border: 0;
+    outline: none;
+} 
+
+ .footer_button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+/* .fas{
+    font-size:16px ;
+    color: #ccc;
+}  */
+.social-icons .fab{
+    /* padding-top: 2%; */
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px ;
+    cursor: pointer;
+}
+.horo{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px autoS;
+}
+.copuright{
+    text-align: center;
+}
+
+@media (max-width:416px) {
+    
+    footer{
+        bottom: unset;
+    }
+    .footer_head{
+        margin-top: 0%;
+    }
+    .colo{
+        flex-basis: 100%;
+       
+  }
+  .rwo{
+      overflow: visible;
+  }
+  .footer_top_container{
+    overflow: scroll;
+  }
+  
+  .colo:nth-child(2),.colo:nth-child(3){
+      flex-basis: 100%;
+  }
+ 
+}
+.colo a{
+    text-decoration: solid;
+    color: black;
+    
+}

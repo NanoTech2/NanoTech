@@ -1,0 +1,64 @@
+.contact-us{
+    background-color:#EEEFF1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    /* margin-top: 50%; */
+  }
+  .contact-us h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2.5px;
+    padding-bottom: 5px 10px;
+    
+    text-align: center;
+  }
+  .contact-card-container{
+    width:95%;
+    display:grid;
+    gap:2rem;
+    grid-template-columns:1fr 1fr;
+  }
+  
+  .contact-us-card{
+    width:100%;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:2rem;
+    padding:2rem 0;
+  }
+  .contact-us-card i{
+    color:#4437C6;
+  }
+  
+  .card-sub{
+    text-align:center;
+  }
+
+  /* For Responsive web page*/
+@media (max-width: 768px){
+  .contact-us .contact-us h1  {
+      align-content: center;
+  }
+  .contact-us{
+    display: block;
+    text-align: center           ;
+  }
+}
+  @media (max-width: 768px){
+    .contact-card-container{
+      width: 89%;
+      text-align: center;
+      display: block;
+    }
+    .card-sub{
+      text-align:center;
+      width: 89%;
+    }
+
+  }
